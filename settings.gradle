@@ -1,0 +1,2 @@
+rootProject.name = "PaceNow-Android-MainApp"
+include ':app'
