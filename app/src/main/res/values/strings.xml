@@ -5,4 +5,8 @@
     <string name="registration"><b>Registration</b></string>
     <string name="register"><b>Register</b></string>
 
+    <string name="tab_1"><b>Country</b></string>
+    <string name="tab_2"><b>Language</b></string>
+    <string name="tab_3"><b>Tab3</b></string>
+
 </resources>

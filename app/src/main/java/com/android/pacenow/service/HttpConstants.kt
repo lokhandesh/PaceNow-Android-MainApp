@@ -1,5 +1,5 @@
 package com.android.pacenow.service
 
 object HttpConstants {
-    var BASE_URL = "https://api.sephora.sg/api/v2.5/"
+    var BASE_URL = "https://api.first.org/data/v1/"
 }
