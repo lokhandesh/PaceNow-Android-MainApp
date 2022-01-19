@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PaceNow-Android-MainApp</string>
+
+    <string name="login"><b>Login</b></string>
+    <string name="registration"><b>Registration</b></string>
+    <string name="register"><b>Register</b></string>
+
 </resources>
