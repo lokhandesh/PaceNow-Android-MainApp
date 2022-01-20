@@ -1,4 +1,4 @@
-package com.android.pacenow.view.dashboard.fragment
+package com.android.pacenow.fragment
 
 import androidx.fragment.app.Fragment
 

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.android.pacenow.view.fragment.LoginFragment">
+        android:name="com.android.pacenow.fragment.LoginFragment">
 
     </fragment>
 

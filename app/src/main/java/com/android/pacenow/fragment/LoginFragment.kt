@@ -1,17 +1,16 @@
-package com.android.pacenow.view.fragment
+package com.android.pacenow.fragment
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.android.pacenow.base.BaseFragment
 import com.android.pacenow.databinding.FragmentLoginBinding
-import com.android.pacenow.view.dashboard.activity.DashboardActivity
-import com.android.pacenow.view.viewmodel.LoginFragmentViewModel
+import com.android.pacenow.activity.DashboardActivity
+import com.android.pacenow.viewmodel.LoginFragmentViewModel
 
 class LoginFragment : BaseFragment() {
 

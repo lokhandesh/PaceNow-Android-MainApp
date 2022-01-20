@@ -1,17 +1,17 @@
-package com.android.pacenow.view.dashboard.fragment
+package com.android.pacenow.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.android.pacenow.base.BaseFragment
 import com.android.pacenow.databinding.FragmentCountryBinding
-import com.android.pacenow.view.dashboard.adapter.CountryAdapter
-import com.android.pacenow.view.dashboard.viewmodel.CountryFragmentViewModel
+import com.android.pacenow.adapter.CountryAdapter
+import com.android.pacenow.viewmodel.CountryFragmentViewModel
 
-class CountryFragment : Fragment() {
+class CountryFragment : BaseFragment() {
 
     private var _binding: FragmentCountryBinding? = null
 
@@ -40,13 +40,17 @@ class CountryFragment : Fragment() {
     }
 
     private fun initObserver() {
-        countryFragmentViewModel.getCountryApiErrorResponse().observe(viewLifecycleOwner,{
+        countryFragmentViewModel.getCountryResponse().observe(viewLifecycleOwner,{
             respose ->
-
+                if (respose.country.isNotEmpty()) {
+                    countryAdapter.setItem(respose.country)
+                }
+            binding.progressBar.visibility = View.INVISIBLE
         })
         countryFragmentViewModel.getCountryApiErrorResponse().observe(viewLifecycleOwner,{
-
+            binding.progressBar.visibility = View.INVISIBLE
         })
+        binding.progressBar.visibility = View.VISIBLE
         countryFragmentViewModel.getCountryList()
     }
 

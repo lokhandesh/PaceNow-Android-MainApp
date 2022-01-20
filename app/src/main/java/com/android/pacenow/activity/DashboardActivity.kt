@@ -1,4 +1,4 @@
-package com.android.pacenow.view.dashboard.activity
+package com.android.pacenow.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,11 +8,10 @@ import android.widget.Toast
 import com.android.pacenow.R
 import com.android.pacenow.base.BaseActivity
 import com.android.pacenow.databinding.DashboardActivityBinding
-import com.android.pacenow.view.MainActivity
-import com.android.pacenow.view.dashboard.adapter.ViewPagerAdapter
-import com.android.pacenow.view.dashboard.fragment.CountryFragment
-import com.android.pacenow.view.dashboard.fragment.LanguageFragment
-import com.android.pacenow.view.dashboard.fragment.Tab3Fragment
+import com.android.pacenow.adapter.ViewPagerAdapter
+import com.android.pacenow.fragment.CountryFragment
+import com.android.pacenow.fragment.LanguageFragment
+import com.android.pacenow.fragment.Tab3Fragment
 import java.util.*
 
 

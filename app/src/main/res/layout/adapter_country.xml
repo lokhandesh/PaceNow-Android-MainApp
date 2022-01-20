@@ -5,7 +5,7 @@
     <data>
         <variable
             name="countryResponse"
-            type="com.android.pacenow.model.CountryResponse"/>
+            type="com.android.pacenow.model.CountryData"/>
     </data>
 
         <androidx.cardview.widget.CardView

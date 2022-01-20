@@ -1,4 +1,4 @@
-package com.android.pacenow.view.dashboard.fragment
+package com.android.pacenow.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter
 import com.android.pacenow.R
 import com.android.pacenow.base.BaseFragment
 import com.android.pacenow.databinding.FragmentLanguageBinding
-import com.android.pacenow.view.dashboard.activity.DashboardActivity
+import com.android.pacenow.activity.DashboardActivity
 
 class LanguageFragment : BaseFragment() {
 

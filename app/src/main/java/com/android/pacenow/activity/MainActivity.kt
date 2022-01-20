@@ -1,4 +1,4 @@
-package com.android.pacenow.view
+package com.android.pacenow.activity
 
 import android.os.Bundle
 import com.android.pacenow.base.BaseActivity

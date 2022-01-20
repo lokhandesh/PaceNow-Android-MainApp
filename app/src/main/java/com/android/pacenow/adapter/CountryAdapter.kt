@@ -1,17 +1,17 @@
-package com.android.pacenow.view.dashboard.adapter
+package com.android.pacenow.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.android.pacenow.databinding.AdapterCountryBinding
-import com.android.pacenow.model.CountryResponse
+import com.android.pacenow.model.CountryData
 
-class CountryAdapter(private var list : List<CountryResponse>) : RecyclerView.Adapter<CountryAdapter.DataViewHolder>() {
+class CountryAdapter(private var list : List<CountryData.Country>) : RecyclerView.Adapter<CountryAdapter.DataViewHolder>() {
 
 
     inner class DataViewHolder(private val binding: AdapterCountryBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(get: CountryResponse) {
-            binding.txtTitle.text = ""
+        fun bind(get: CountryData.Country) {
+            binding.txtTitle.text = get.full_name_english
         }
 
     }
@@ -22,7 +22,7 @@ class CountryAdapter(private var list : List<CountryResponse>) : RecyclerView.Ad
 
     override fun getItemCount(): Int = list.size
 
-    fun setItem(list: ArrayList<CountryResponse>) {
+    fun setItem(list: List<CountryData.Country>) {
         this.list = list
         notifyDataSetChanged()
     }

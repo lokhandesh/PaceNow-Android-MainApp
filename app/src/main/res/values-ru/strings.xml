@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PaceNow-Android-MainApp</string>
+    <string name="app_name">PaceNow</string>
 
     <string name="login"><b>Авторизоваться</b></string>
     <string name="username"><b>имя пользователя</b></string>

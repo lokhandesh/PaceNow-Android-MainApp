@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PaceNow-Android-MainApp</string>
+    <string name="app_name">PaceNow</string>
 
     <string name="login"><b>Login</b></string>
     <string name="username"><b>Username</b></string>

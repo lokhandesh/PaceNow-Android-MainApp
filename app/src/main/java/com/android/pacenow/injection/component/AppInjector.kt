@@ -1,8 +1,8 @@
 package com.android.pacenow.injection.component
 
 import com.android.pacenow.injection.module.NetworkModule
-import com.android.pacenow.view.dashboard.viewmodel.CountryFragmentViewModel
-import com.android.pacenow.view.viewmodel.LoginFragmentViewModel
+import com.android.pacenow.viewmodel.CountryFragmentViewModel
+import com.android.pacenow.viewmodel.LoginFragmentViewModel
 import dagger.Component
 import javax.inject.Singleton
 

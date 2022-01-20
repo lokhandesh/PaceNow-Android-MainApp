@@ -1,6 +1,6 @@
 package com.android.pacenow.service
 
-import com.android.pacenow.model.CountryResponse
+import com.android.pacenow.model.CountryData
 import io.reactivex.Single
 import retrofit2.http.GET
 
@@ -8,8 +8,8 @@ import retrofit2.http.GET
 interface ApiInterface {
 
 
-    @GET("countries")
-    fun getCountryList(): Single<CountryResponse>
+    @GET("countryList.json")
+    fun getCountryList(): Single<CountryData>
 
 
 

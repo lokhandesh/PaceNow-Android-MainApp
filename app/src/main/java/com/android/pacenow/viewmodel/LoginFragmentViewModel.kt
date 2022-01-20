@@ -1,4 +1,4 @@
-package com.android.pacenow.view.viewmodel
+package com.android.pacenow.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
