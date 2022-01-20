@@ -3,8 +3,8 @@ This sample demonstrate core application architecture for Android application us
 
 For Login into application use below Username and password
 
-Username :- pace
-Password :- pace
+- Username :- pace
+- Password :- pace
 
 Highlights
 
