@@ -2,8 +2,14 @@
     <string name="app_name">PaceNow-Android-MainApp</string>
 
     <string name="login"><b>Login</b></string>
-    <string name="registration"><b>Registration</b></string>
-    <string name="register"><b>Register</b></string>
+    <string name="username"><b>Username</b></string>
+    <string name="password"><b>Password</b></string>
+    <string name="logout"><b>Logout</b></string>
+
+    <string name="select_lang"><b>Select Language</b></string>
+    <string name="english"><b>English</b></string>
+    <string name="russian"><b>Rusian</b></string>
+
 
     <string name="tab_1"><b>Country</b></string>
     <string name="tab_2"><b>Language</b></string>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PaceNow-Android-MainApp</string>
+
+    <string name="login"><b>Авторизоваться</b></string>
+    <string name="username"><b>имя пользователя</b></string>
+    <string name="password"><b>Пароль</b></string>
+    <string name="logout"><b>Выйти</b></string>
+
+    <string name="select_lang"><b>Выберите язык</b></string>
+    <string name="english"><b>английский</b></string>
+    <string name="russian"><b>русский</b></string>
+
+    <string name="tab_1"><b>Страна</b></string>
+    <string name="tab_2"><b>Язык</b></string>
+    <string name="tab_3"><b>Вкладка3</b></string>
+</resources>
