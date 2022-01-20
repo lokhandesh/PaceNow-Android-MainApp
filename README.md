@@ -9,11 +9,12 @@ For Login into application use below Username and password
 Highlights
 
 1) Android project structure
-2) Clean code
-3) Android architecture components - LiveData, ViewModel
-4) Data binding
-5) Kotlin
-6) Dagger2
-7) Retrofit
-8) Localization
-9) Unit Testing
+2) Material Design for UI
+3) Clean code
+4) Android architecture components - LiveData, ViewModel
+5) Data binding
+6) Kotlin
+7) Dagger2
+8) Retrofit
+9) Localization
+10) Unit Testing
