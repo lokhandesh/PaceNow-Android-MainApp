@@ -47,9 +47,11 @@ class LoginFragment : BaseFragment() {
         loginFragmentViewModel.successResponse().observe(viewLifecycleOwner, Observer {
             binding.usernameEditText.error = null
             binding.passwordEditText.error = null
-            preferenceHelper.setIsLogIn(true)
-            startActivity(Intent(activity, DashboardActivity::class.java))
-            activity?.finish()
+            if (it) {
+                preferenceHelper.setIsLogIn(true)
+                startActivity(Intent(activity, DashboardActivity::class.java))
+                activity?.finish()
+            }
         })
     }
 

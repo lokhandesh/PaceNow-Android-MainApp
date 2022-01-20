@@ -2,8 +2,9 @@ package com.android.pacenow.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.android.pacenow.base.BaseViewModel
 
-class LoginFragmentViewModel : ViewModel() {
+class LoginFragmentViewModel : BaseViewModel() {
 
 
     private var errorResponse = MutableLiveData<Boolean>()
@@ -18,14 +19,16 @@ class LoginFragmentViewModel : ViewModel() {
     }
 
 
-    fun validateUser(userName : String, password :String) {
+    fun validateUser(userName : String, password :String) : Boolean {
         if (userName.isEmpty() || password.isEmpty()) {
             errorResponse.value = true
-        } else if (userName != "pacenow" || password != "pacenow") {
+        } else if (userName != "pace" || password != "pace") {
             errorResponse.value = true
         } else {
             successResponse.value = true
+            return true
         }
+        return false
     }
 
 

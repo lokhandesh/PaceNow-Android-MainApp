@@ -16,13 +16,13 @@ import retrofit2.converter.gson.GsonConverterFactory
 @Suppress("unused")
 class NetworkModule {
     /**
-     * Provides the Album service implementation.
+     * Provides the Network service implementation.
      * @param retrofit the Retrofit object used to instantiate the service
      * @return the Post service implementation.
      */
     @Provides
     @Reusable
-    internal fun provideSephoraApi(retrofit: Retrofit): ApiInterface {
+    internal fun providePaceNowApi(retrofit: Retrofit): ApiInterface {
         return retrofit.create(ApiInterface::class.java)
     }
 

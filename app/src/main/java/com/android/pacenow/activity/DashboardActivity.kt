@@ -18,8 +18,7 @@ import java.util.*
 class DashboardActivity : BaseActivity() {
 
     private lateinit var binding: DashboardActivityBinding
-    private var currentLanguage = "en"
-    lateinit var locale: Locale
+    private lateinit var locale: Locale
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

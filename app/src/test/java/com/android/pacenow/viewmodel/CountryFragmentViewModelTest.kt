@@ -3,6 +3,7 @@ package com.android.pacenow.viewmodel
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.android.pacenow.model.CountryData
 import com.android.pacenow.service.ApiInterface
+import com.android.pacenow.viewmodel.CountryFragmentViewModel
 import io.reactivex.Scheduler
 import io.reactivex.Single
 import io.reactivex.android.plugins.RxAndroidPlugins
