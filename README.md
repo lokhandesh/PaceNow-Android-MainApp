@@ -2,7 +2,8 @@
 This sample demonstrate core application architecture for Android application using Android Architecture Components with Kotlin, Dagger2 and Retrofit
 
 For Login into application use below Username and password
-Usename :- pace
+
+Username :- pace
 Password :- pace
 
 Highlights
