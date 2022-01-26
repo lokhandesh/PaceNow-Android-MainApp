@@ -2,7 +2,9 @@ package com.android.pacenow.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.android.pacenow.base.BaseViewModel
+import kotlinx.coroutines.async
 
 class LoginFragmentViewModel : BaseViewModel() {
 
@@ -31,5 +33,8 @@ class LoginFragmentViewModel : BaseViewModel() {
         return false
     }
 
+    private fun coroutineCall() {
+        viewModelScope.async {  }
+    }
 
 }

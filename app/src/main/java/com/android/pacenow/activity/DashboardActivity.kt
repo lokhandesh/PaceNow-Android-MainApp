@@ -15,6 +15,7 @@ import com.android.pacenow.fragment.Tab3Fragment
 import java.util.*
 
 
+@Suppress("DEPRECATION")
 class DashboardActivity : BaseActivity() {
 
     private lateinit var binding: DashboardActivityBinding
@@ -24,7 +25,7 @@ class DashboardActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = DashboardActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.toolbar);
+        setSupportActionBar(binding.toolbar)
         val adapter = ViewPagerAdapter(supportFragmentManager)
         adapter.addFragment(CountryFragment(), getString(R.string.tab_1))
         adapter.addFragment(LanguageFragment(), getString(R.string.tab_2))
@@ -68,7 +69,7 @@ class DashboardActivity : BaseActivity() {
             binding.viewPager.currentItem = 2
         } else {
             Toast.makeText(
-                this, "Language, , already, , selected)!", Toast.LENGTH_SHORT).show();
+                this, "Language, , already, , selected)!", Toast.LENGTH_SHORT).show()
         }
     }
 
